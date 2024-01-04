@@ -3,8 +3,13 @@ p {
 }
 
 h1, h2 {
-  font-family: 'Oswald', sans-serif;
-  font-weight: 700;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 4em;
+  font-style: normal;
+  font-weight: 800;
+  text-transform: uppercase;
+  line-height: 90%;
+  position: relative;
 }
 
 h3, h4, h5, h6 {
@@ -17,9 +22,31 @@ h3, h4, h5, h6 {
   line-height: .9!important;
 }
 
+.hero {
+  padding: 0px 25vw;
+}
+
+.img-big {
+  height: 100%;
+  width: 100vw;
+}
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* NAVBAR */
 
 
 
@@ -186,8 +213,9 @@ header {
 }
 
 /* .px-4 {
-  padding-right: 4rem!important;
-  padding-left: 4rem!important;
+  padding-right: 1.5rem!important;
+  padding-left: 1.5rem!important;
+  width: 50%!important;
 } */
 
 @media (min-width: 992px) {
@@ -385,40 +413,7 @@ body {
     color: #fff;
     text-decoration: none;
   }
-  
-  /*
-   * Dummy devices (replace them with your own or something else entirely!)
-   */
-  
-  .product-device {
-    position: absolute;
-    right: 10%;
-    bottom: -30%;
-    width: 300px;
-    height: 540px;
-    background-color: #333;
-    border-radius: 21px;
-    transform: rotate(30deg);
-  }
-  
-  .product-device::before {
-    position: absolute;
-    top: 10%;
-    right: 10px;
-    bottom: 10%;
-    left: 10px;
-    content: "";
-    background-color: rgba(255, 255, 255, .1);
-    border-radius: 5px;
-  }
-  
-  .product-device-2 {
-    top: -25%;
-    right: auto;
-    bottom: 0;
-    left: 5%;
-    background-color: #e5e5e5;
-  }
+
   
   
   /*
@@ -455,3 +450,52 @@ body {
       font-size: 3.5rem;
     }
   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
