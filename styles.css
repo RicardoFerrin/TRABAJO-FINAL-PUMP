@@ -49,9 +49,7 @@ h3, h4, h5, h6 {
 /* NAVBAR */
 
 .navar{
-  background: black;
-  margin: 0;
-  padding: 0;
+  background: #212529;
 }
 
 li{
@@ -59,23 +57,31 @@ li{
 }
 
 .logo{
-  font-weight: bold;
   font-size: 1.5rem;
 }
 
 a{
-  color: white;
-  text-decoration: none;
+  letter-spacing: -0.3px;
+  font-weight: 600;
+  color: white !important;
+  text-decoration: none !important;
+}
+
+ul.nav-menu{
+  margin: 0;
 }
 
 .navbar{
   height: 70px;
   width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0 5%;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  padding: 0 5% !important;
+  position: sticky !important;
 }
+
+/* HACER STIKY */
 
 .nav-menu{
   display: flex;
@@ -83,7 +89,7 @@ a{
 }
 
 .nav-branding{
-  font-size: 2rem;
+  font-size: 2rem ;
 }
 
 /* transition for links */
@@ -446,6 +452,40 @@ body {
 
 
 
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
 
 
 
@@ -568,4 +608,59 @@ body {
 
 .features {
   padding: 0px 25vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* NABVAR */
+
+@media(max-width: 760px){
+  .bar{
+    display: block;
+  }
+
+  .hamburger{
+    display: block;
+  }
+  .hamburger.active .bar:nth-child(2){
+    opacity: 0;
+  }
+  .hamburger.active .bar:nth-child(1){
+    transform: rotate(45deg) translateY(11.5px); 
+  }  
+  .hamburger.active .bar:nth-child(3){
+    transform: rotate(-45deg) translateY(-11.5px); 
+  }
+
+  .nav-menu{
+    position: fixed;
+    right: -100%;
+    top: 70px;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    background: black;
+    transition: 0.3s;
+  }
+
+  .nav-item{
+    padding: 1.5rem 0;
+  }
+  
+  .nav-menu.active{
+    right: 0;
+  }
 }
