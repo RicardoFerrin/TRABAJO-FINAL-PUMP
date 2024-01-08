@@ -50,6 +50,8 @@ h3, h4, h5, h6 {
 
 .navar{
   background: #212529;
+  position: sticky;
+  top: 0;
 }
 
 li{
