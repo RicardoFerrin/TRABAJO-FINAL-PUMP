@@ -644,6 +644,7 @@ body {
   .hamburger.active .bar:nth-child(3){
     transform: rotate(-45deg) translateY(-11.5px); 
   }
+  
 
   .nav-menu{
     position: fixed;
@@ -652,7 +653,7 @@ body {
     flex-direction: column;
     width: 100%;
     text-align: center;
-    background: black;
+    background-color: #212529;
     transition: 0.3s;
   }
 
