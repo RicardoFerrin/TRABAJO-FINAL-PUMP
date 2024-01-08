@@ -48,6 +48,70 @@ h3, h4, h5, h6 {
 
 /* NAVBAR */
 
+.navar{
+  background: black;
+}
+
+li{
+  list-style: none;
+}
+
+.logo{
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+.navbar{
+  height: 70px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5%;
+}
+
+.nav-menu{
+  display: flex;
+  align-items: center;
+}
+
+.nav-branding{
+  font-size: 2rem;
+}
+
+/* transition for links */
+
+.nav-link{
+  transition: 0.5s ease;
+}
+
+.nav-link:hover{
+  color: dodgerblue;
+}
+
+.hamburger{
+  display: none;
+  cursor: pointer;
+}
+
+.bar{
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background: white;
+	border-radius: 5px;
+}
+
+.nav-item{
+  padding: 0 1.5rem;
+}
 
 
 
