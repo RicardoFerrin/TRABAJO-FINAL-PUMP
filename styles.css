@@ -295,6 +295,7 @@ header {
 
 @media (min-width: 992px) {
   .rounded-lg-3 { border-radius: .3rem; }
+  .hero { padding: 15vw;}
 }
 
 .bd-placeholder-img {
@@ -311,8 +312,15 @@ header {
     }
   }
 
+  @media (max-width: 1000px) {
+    
+    .hero { padding: 15vw;}
+  }
 
-
+  @media (max-width: 500px) {
+    
+    .hero { padding: 5vw;}
+  }
 
 
 
